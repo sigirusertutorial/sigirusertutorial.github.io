@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
+  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Large Language Model Powered Agents for Information Retrieval</title>
+
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-2 publication-title">
+              <span style="font-size: 80%">SIGIR 2024 Tutorial:</span><br />
+              Large Language Model Powered Agents for Information Retrieval
+            </h1>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <table>
+            <tr>
+                <!-- <th scope="row">TR-7</th> -->
+                <td width="16%" style="text-align: center; padding: 3px"><img width="100px" height="100px" src="static/imgs/anzhang.png"></td>
+                <td width="16%" style="text-align: center; padding: 3px"><img width="100px" height="100px" src="static/imgs/yangdeng 1.png"></td>
+                <td width="16%" style="text-align: center; padding: 3px"><img width="100px" height="100px" src="static/imgs/yankailin.png"></td>
+                <td width="16%" style="text-align: center; padding: 3px"><img width="100px" height="100px" src="static/imgs/xuchen.png"></td>
+                <td width="16%" style="text-align: center; padding: 3px"><img width="100px" height="100px" src="static/imgs/ji-rongwen.png"></td>
+                <td width="16%" style="text-align: center; padding: 3px"><img width="100px" height="100px" src="static/imgs/Tat-Seng Chua.png"></td>
+            </tr>
+              <tr>
+                <!-- <th scope="row">TR-7</th> -->
+                <td width="16%" style="text-align: center"><a href="https://anzhang314.github.io/" style="border-radius: 50%">An Zhang</a><sup>1</sup>,</td>
+                <td width="16%" style="text-align: center"><a href="https://dengyang17.github.io" style="border-radius: 50%">Yang Deng</a><sup>2</sup>,</td>
+                <td width="16%" style="text-align: center"><a href="https://linyankai.github.io/" style="border-radius: 50%">Yankai Lin</a><sup>3</sup></td>
+                <td width="16%" style="text-align: center"><a href="https://xu-chen.com" style="border-radius: 50%">Xu Chen</a><sup>3</sup></td>
+                <td width="16%" style="text-align: center"><a href="https://gsai.ruc.edu.cn/english/jrwen" style="border-radius: 50%">Ji-Rong Wen</a><sup>3</sup></td>
+                <td width="16%" style="text-align: center"><a href="https://www.chuatatseng.com" style="border-radius: 50%">Tat-Seng Chua</a><sup>1</sup>,</td>
+              </tr>
+            </table>
+            </span>
+          </div>
+          <div class="is-size-6 publication-authors">
+            <span class="author-block"><sup>1</sup>National University of Singapore,</span>
+            <span class="author-block"><sup>2</sup>Singapore Management University,</span>
+            <span class="author-block"><sup>3</sup>Renmin University of China</span>
+          </div>
+          <br />
+          <div class="is-size-5 publication-authors">
+            <b>Sunday July 14 09:00 - 12:30 (GMT-4) @ Capital Hilton / Federal B</b>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">About this tutorial</h2>
+        <div class="content has-text-justified">
+          <p>
+            The vital goal of information retrieval today extends beyond merely connecting users with relevant information they search for. It also aims to enrich the diversity, personalization, and interactivity of that connection, ensuring the information retrieval process is as seamless, beneficial, and supportive as possible in the global digital era. Current information retrieval systems often encounter challenges like a constrained understanding of queries, static and inflexible responses, limited personalization, and restricted interactivity. With the advent of large language models (LLMs), there's a transformative paradigm shift as we integrate LLM-powered agents into these systems. These agents bring forth crucial human capabilities like memory and planning to make them behave like humans in completing various tasks, effectively enhancing user engagement and offering tailored interactions. 
+          </p>
+          <p>
+            In this tutorial, we delve into the cutting-edge techniques of LLM-powered agents across various information retrieval fields, such as search engines, social networks, recommender systems, and conversational assistants. We will also explore the prevailing challenges in seamlessly incorporating these agents and hint at prospective research avenues that can revolutionize the way of information retrieval. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Schedule [<a href="https://llmagenttutorial.github.io/files/SIGIR2024_Agent_Tutorial.pdf"><b>Abstract</b></a>]</h2>
+        <p>
+          Our tutorial was held on July 14 (all the times are based on GMT-4).
+        </p>
+
+        <div class="content has-text-justified">
+
+          <style type="text/css">
+          .tg  {border-collapse:collapse;border-spacing:0;}
+          .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+            overflow:hidden;padding:10px 5px;word-break:normal;}
+          .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+            font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+          .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+          .tg .tg-0lax{text-align:left;vertical-align:top}
+          </style>
+          <table class="tg">
+          <thead>
+            <tr>
+              <th class="tg-0pky">Time</th>
+              <th class="tg-0lax">Section</th>
+              <th class="tg-0lax">Slides</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="tg-0lax">09:00—09:10</td>
+              <td class="tg-0lax">Section 1: Introduction and Background of LLM-powered Agents</td>
+              <td class="tg-0lax">[<a href="https://llmagenttutorial.github.io/files/intro_slides-sigir.pdf"><b>Slides</b></a>]</td>
+            </tr>
+            <tr>
+              <td class="tg-0lax">09:10—09:40</td>
+              <td class="tg-0lax">Section 2: LLM-powered Agents with Tool Learning</td>
+              <td class="tg-0lax">[<a href="https://llmagenttutorial.github.io/files/background_slides.pdf"><b>Slides</b></a>]</td>
+            </tr>
+            <tr>
+              <td class="tg-0lax">09:40—10:00</td>
+              <td class="tg-0lax">Section 3: LLM-powered Agents in Social Network</td>
+              <td class="tg-0lax">[<a href="https://llmagenttutorial.github.io/files/socialagent_slides.pdf"><b>Slides</b></a>]</td>
+            </tr>
+            <tr>
+              <td class="tg-0lax">10:00—10:30</td>
+              <td class="tg-0lax">Section 4: LLM-powered Agents in Recommendation</td>
+              <td class="tg-0lax">[<a href="https://llmagenttutorial.github.io/files/recagent_slides-sigir.pdf"><b>Slides</b></a>]</td>
+            </tr>
+            <tr>
+              <td class="tg-0lax">11:00—12:00</td>
+              <td class="tg-0lax">Section 5: LLM-powered Conversational Agents</td>
+              <td class="tg-0lax">[<a href="https://llmagenttutorial.github.io/files/convagent_slides-sigir.pdf"><b>Slides</b></a>]</td>
+            </tr>
+            <tr>
+              <td class="tg-0lax">12:00—12:25</td>
+              <td class="tg-0lax">Section 6: Open Challenges and Summary</td>
+              <td class="tg-0lax">[<a href="https://llmagenttutorial.github.io/files/challenge_slides-sigir.pdf"><b>Slides</b></a>]</td>
+            </tr>
+            <tr>
+              <td class="tg-0lax">12:25—12:30</td>
+              <td class="tg-0lax">Q & A</td>
+              <!--td class="tg-0lax"></td-->
+            </tr>
+          </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Concurrent Work. -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+      <h3 class="title is-3">Presenter</h3>
+
+        <ul>
+          <p><b>An Zhang</b> is a Postdoctoral Research Fellow at the NExT++ research center. She earned her Ph.D. from the National University of Singapore. Dr. Zhang’s research is primarily focused on large language models (LLMs) and recommender systems, with a specific interest in the deployment of LLM-driven multimodal generative agents for recommendation simulation. She has published more than 20 papers at toptier conferences and journals, including WWW, KDD, NeurIPS, ICLR, TPAMI, and TOIS. </p>
+          <br />
+          <p><b>Yang Deng</b> is an assistant professor at Singapore Management University. Prior to that, he was a research fellow at National University of Singapore. He received his Ph.D. degree from The Chinese University of Hong Kong. His research lies in natural language processing and information retrieval, especially for conversational and interactive systems. He has published over 40 papers on relevant topics at top venues such as WWW, SIGIR, CIKM, ACL, EMNLP, TKDE, and TOIS. He has rich experience in organizing tutorials at top conferences, including ACL 2023, SIGIR-AP 2023, and WWW 2024. </p>
+          <br />
+          <p><b>Yankai Lin</b> is an assistant professor at Gaoling School of Artificial Intelligence, Renmin University of China. He received his Ph.D. degree from Tsinghua University. His research interests lie in prelarge language models (LLMs), especially LLM-based tool learning and LLM-based agents. He has published more than 50 papers at toptier AI and NLP conferences, including ACL, EMNLP, IJCAI, AAAI, and NeurIPS, with over 10,000 Google Scholar citations. He was selected as the most cited Chinese researcher by Elsevier from 2020 to 2023. He has served as area chair for EMNLP and ACL ARR.  </p>
+          <br />
+          <p><b>Xu Chen</b> is a tenure track associate professor at Gaoling School of Artificial Intelligence, Renmin University of China. Before joining Renmin University of China, he was a research fellow at University College London, UK. Xu Chen obtained his PhD degree from Tsinghua University. His research interests lie in large language models, recommender systems, causal inference, and reinforcement learning. He has published more than 70 papers on top-tier confer- ences/journals like WWW, AIJ, NeurIPS, TKDE, SIGIR, WSDM and TOIS. He has organized many workshops and tutorials on top-tier conferences including SIGIR 2021, SIGIR 2020, SIGIR 2019, WSDM 2021, and WSDM 2018. </p>
+          <br />
+          <p><b>Ji-Rong Wen</b> is a full professor, the dean of School of Information, and the executive dean of Gaoling School of Artificial Intelligence at Renmin University of China. He has been working in the big data and AI areas for many years, and publishing extensively in prestigious international conferences and journals. He serves as the Program Chair of SIGIR 2020 and the Associate Editor of TOIS and TKDE. He has previously served as a senior researcher at Microsoft Research Asia and the group manager of the Web Search and Mining Group. He was elected as a National Distinguished Professor in 2013 and Beijing’s Distinguished Young Scientist in 2018. He is a Chief Scientist at the Beijing Academy of Artificial Intelligence. </p>
+          <br />
+          <p><b>Tat-Seng Chua</b> is the KITHCT Chair Professor with the School of Computing, National University of Singapore, where he was the Founding Dean of the School. His main research interests include multimedia information retrieval and social media analytics. He is the 2015 winner of the ACM SIGMM Technical Achievement Award and has received over 10 best papers awards or nominations in top conferences (WWW, SIGIR, MM, etc). He serves as the general cochair of ACM MM 2005, ACM SIGIR 2008, WSDM 2023, WWW 2024, etc, and the editor of multiple journals (TOIS, TMM, etc). He has given invited keynote talks at varying international conferences, including the recent ones on the topics of Multimodal Conversational Search and Recommendation and Generative Search and Recommendation.</p>
+          <br />
+        </ul>
+        
+      </div>
+    </div>
+</section>
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@inproceedings{sigir24-llm-agent-tutorial,
+  title={Large Language Model Powered Agents for Information Retrieval},
+  author={Zhang, An and Deng, Yang and Lin, Yankai and Chen, Xu and Wen, Ji-Rong and Chua, Tat-Seng},
+  booktitle={In The 47th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  year={2024}
+}</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link" href="https://github.com/llmagenttutorial/llmagenttutorial.github.io" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>. This website is based on <a href="https://github.com/nerfies/nerfies.github.io">source code</a> and <a href="https://acl2023-retrieval-lm.github.io/">ACL2023 Retrieval LM tutorial</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
